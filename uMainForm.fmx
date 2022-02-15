@@ -1,0 +1,51 @@
+object MainForm: TMainForm
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 612
+  ClientWidth = 436
+  Fill.Kind = Gradient
+  Fill.Gradient.Points = <
+    item
+      Color = xFFCBFED8
+      Offset = 0.000000000000000000
+    end
+    item
+      Color = xFFBEDBFE
+      Offset = 1.000000000000000000
+    end>
+  Fill.Gradient.StartPosition.X = 0.500000000000000000
+  Fill.Gradient.StartPosition.Y = 1.000000000000000000
+  Fill.Gradient.StopPosition.X = 0.499999970197677600
+  Fill.Gradient.StopPosition.Y = 0.000000000000000000
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 3
+  object RESTClient: TRESTClient
+    Accept = 'application/json, text/plain; q=0.9, text/html;q=0.8,'
+    AcceptCharset = 'utf-8, *;q=0.8'
+    AllowCookies = False
+    AutoCreateParams = False
+    BaseURL = 'https://service.takeit.club/api.dll/account/login'
+    ContentType = 'application/json'
+    Params = <>
+    Left = 136
+    Top = 32
+  end
+  object RESTRequest: TRESTRequest
+    AutoCreateParams = False
+    Client = RESTClient
+    Method = rmPOST
+    Params = <>
+    Response = RESTResponse
+    Left = 200
+    Top = 32
+  end
+  object RESTResponse: TRESTResponse
+    ContentType = 'application/json'
+    Left = 272
+    Top = 32
+  end
+end

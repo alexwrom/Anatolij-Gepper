@@ -1,0 +1,92 @@
+object LoginFrame: TLoginFrame
+  Align = Client
+  Size.Width = 376.000000000000000000
+  Size.Height = 586.000000000000000000
+  Size.PlatformDefault = False
+  object Layout1: TLayout
+    Align = Center
+    Size.Width = 200.000000000000000000
+    Size.Height = 167.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Login: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Top
+      TabOrder = 1
+      Text = 'max.mustermann'
+      TextSettings.Font.Family = 'Roboto'
+      TextSettings.FontColor = xFF1E517B
+      TextSettings.HorzAlign = Center
+      Position.X = 10.000000000000000000
+      Position.Y = 22.000000000000000000
+      Margins.Left = 10.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Size.Width = 180.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      StyledSettings = [Size, Style]
+    end
+    object Label1: TLabel
+      Align = Top
+      StyledSettings = [Family, Style]
+      Margins.Bottom = 5.000000000000000000
+      Size.Width = 200.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Roboto'
+      TextSettings.Font.Size = 13.000000000000000000
+      TextSettings.FontColor = claSteelblue
+      Text = 'Login:'
+      TabOrder = 3
+    end
+    object Label2: TLabel
+      Align = Top
+      StyledSettings = [Family, Style]
+      Margins.Bottom = 5.000000000000000000
+      Position.Y = 59.000000000000000000
+      Size.Width = 200.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Roboto'
+      TextSettings.Font.Size = 13.000000000000000000
+      TextSettings.FontColor = claSteelblue
+      Text = 'Password:'
+      TabOrder = 2
+    end
+    object Password: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Top
+      TabOrder = 0
+      Password = True
+      Text = '321'
+      TextSettings.Font.Family = 'Roboto'
+      TextSettings.FontColor = xFF1E517B
+      TextSettings.HorzAlign = Center
+      Position.X = 10.000000000000000000
+      Position.Y = 81.000000000000000000
+      Margins.Left = 10.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Size.Width = 180.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      StyledSettings = [Size, Style]
+    end
+    object btnLogIn: TSpeedButton
+      Align = Client
+      StyledSettings = [Family, Size]
+      Size.Width = 200.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'cornerbuttonstyle'
+      Text = 'Log In'
+      TextSettings.Font.Family = 'Roboto'
+      TextSettings.Font.Size = 14.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claWhite
+      TintColor = claSteelblue
+      OnClick = btnLogInClick
+    end
+  end
+end

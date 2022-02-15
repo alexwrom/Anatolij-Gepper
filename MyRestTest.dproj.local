@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.847,=D:\Delphi\Android\Anatolij Gepper\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.683,D:\Delphi\Android\Anatolij Gepper\Unit1.pas=D:\Delphi\Android\Anatolij Gepper\uOkFrame.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.548,=D:\Delphi\Android\Anatolij Gepper\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.509,D:\Delphi\Android\Anatolij Gepper\Unit1.pas=D:\Delphi\Android\Anatolij Gepper\uLogInFrame.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.015,=D:\Delphi\Android\Anatolij Gepper\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.862,D:\Delphi\Android\Anatolij Gepper\tets.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.947,C:\Users\Alex\Documents\Embarcadero\Studio\Projects\Project1.dproj=D:\Delphi\Android\Anatolij Gepper\MyRestTest.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.875,D:\Delphi\Android\Anatolij Gepper\Unit1.pas=D:\Delphi\Android\Anatolij Gepper\tets.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.363,=D:\Delphi\Android\Anatolij Gepper\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.883,D:\Delphi\Android\Anatolij Gepper\Unit1.pas=D:\Delphi\Android\Anatolij Gepper\uBasisObject.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.029,C:\Users\Alex\Documents\Embarcadero\Studio\Projects\Unit1.fmx=D:\Delphi\Android\Anatolij Gepper\uMainForm.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.683,D:\Delphi\Android\Anatolij Gepper\Unit1.fmx=D:\Delphi\Android\Anatolij Gepper\uOkFrame.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.509,D:\Delphi\Android\Anatolij Gepper\Unit1.fmx=D:\Delphi\Android\Anatolij Gepper\uLogInFrame.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.029,C:\Users\Alex\Documents\Embarcadero\Studio\Projects\Unit1.pas=D:\Delphi\Android\Anatolij Gepper\uMainForm.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.971,=C:\Users\Alex\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.333,D:\Delphi\Android\Anatolij Gepper\Unit1.pas=D:\Delphi\Android\Anatolij Gepper\uUser.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.218,=D:\Delphi\Android\Anatolij Gepper\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.377,D:\Delphi\Android\Anatolij Gepper\Unit2.pas=D:\Delphi\Android\Anatolij Gepper\uLoginToken.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.353,=D:\Delphi\Android\Anatolij Gepper\Unit2.pas</Transaction>
+    <Transaction>2022.02.15 12:06:21.578,=D:\Delphi\Android\Anatolij Gepper\ModelSupport_MyRestTest\default.txaPackage</Transaction>
+  </Transactions>  <ActiveMobileDevice>   <NoProfile Android="PFGQ896L89GICQFE" Android64="PFGQ896L89GICQFE"/>
+  </ActiveMobileDevice>
+  <BT_BuildType>AppStore</BT_BuildType>
+</BorlandProject>
